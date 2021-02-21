@@ -7,7 +7,7 @@ return [
     'baseUrl' => '',
     'encodedEmail' => 'e48c8da483818b96838192ca8081978d838a', // See _mail-protect.js for info
     'siteName' => 'GeorgeV',
-    'description' => 'Website description.',
+    'siteDescription' => 'A place where I can share my thoughts and discoveries.',
     'collections' => [
         'articles' => [
             'path' => 'blog/{-title}',

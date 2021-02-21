@@ -4,6 +4,7 @@ section: article-content
 title: "Linux shell experience on Windows: Cygwin, Oh My Zsh and Windows Terminal"
 date: 2020-06-16
 activeNav: blog
+description: Here's what to do to get a decent terminal experience going on Windows
 ---
 
 Working with lots of servers I became quite attached to working with a shell, but I'm stuck using Windows because of the Adobe suite, the Stream Deck I use for macros, and other proprietary software that I don't have an alternative for.

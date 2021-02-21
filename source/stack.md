@@ -1,9 +1,10 @@
 ---
 extends: _layouts.article
 section: article-content
-title: "Stack"
+title: Stack
 activeNav: stack
 hiddenDate: true
+description: Here is what tools, software and hardware I'm currently using almost on a daily basis
 ---
 
 This is a continuously changing list of the technologies, tools and hardware I use at the moment. The list will unquestionably change over time, so I'll try to update it in here as often as I can.
