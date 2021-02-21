@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+// Vars
+@import "variables";
+
+// NPM imports
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~highlight.js/styles/atom-one-dark.css";
+
+@import "mixins";
+@import "animations";
+@import "common";
+@import "pages";
