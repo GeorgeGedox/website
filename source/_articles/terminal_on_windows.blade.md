@@ -7,10 +7,16 @@ activeNav: blog
 description: Here's what to do to get a decent terminal experience going on Windows
 ---
 
+@include('_layouts.alertbox', [
+    'alertType' => 'alert-info',
+    'alertTitle' => 'Parts of this article are now outdated',
+    'alertContent' => "With updates, some of the things written below might not apply today, for example the release of Windows Terminal 1.5, a context action was added by default."
+])
+
 Working with lots of servers I became quite attached to working with a shell, but I'm stuck using Windows because of the Adobe suite, the Stream Deck I use for macros, and other proprietary software that I don't have an alternative for.
 
 I decided to try out [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) to fill my needs, it worked fine for a bit, having integration with Docker in WSL2 was a big step up from WSL1 but the limitations started to show up sooner than I expected.
-WSL2 is great for giving you a taste of Linux on Windows but the following problems made me go back to the drawing board:
+WSL2 is great for giving you a taste of Linux on Windows, but the following problems made me go back to the drawing board:
 - Docker volume mounts inside the WSL machine fails as Docker for Windows doesn't know the path to the WSL filesystem
 - I depend a lot on Vagrant for web development and Hyper-V and VirtualBox don't play nice, leading to VMs not booting properly or randomly triggering a kernel panic
 - Running background services inside WSL such as nginx or mysql is not yet supported

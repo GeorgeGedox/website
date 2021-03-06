@@ -23,6 +23,5 @@
 
     <title>{{ $page->title ? "{$page->title} | " : '' }}{{ $page->siteName }}</title>
 
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets') }}">
+    <link rel="stylesheet" href="{{ mix('css/main.css') }}">
 </head>
