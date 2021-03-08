@@ -65,6 +65,33 @@ header {
   }
 }
 
+.alert {
+  color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border: 1px solid $color-primary;
+
+  &.alert-info {
+    background-color: #004040;
+    border: 1px solid aqua;
+
+    > h3 {
+      color: aqua;
+    }
+  }
+
+  > h3 {
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  > p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .decoration {
   position: absolute;
   z-index: -1;
