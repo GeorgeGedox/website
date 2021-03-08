@@ -19,7 +19,7 @@ return [
     },
     'excerpt' => function ($page, $length = 255) {
         $cleaned = strip_tags(
-            preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $page->getContent()),
+            preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/', '/<ignore>[\w\W]*?<\/ignore>/'], '', $page->getContent()),
             '<code>'
         );
 

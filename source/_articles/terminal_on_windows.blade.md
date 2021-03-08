@@ -7,11 +7,13 @@ activeNav: blog
 description: Here's what to do to get a decent terminal experience going on Windows
 ---
 
+<ignore>
 @include('_layouts.alertbox', [
     'alertType' => 'alert-info',
     'alertTitle' => 'Parts of this article are now outdated',
     'alertContent' => "With updates, some of the things written below might not apply today, for example the release of Windows Terminal 1.5, a context action was added by default."
 ])
+</ignore>
 
 Working with lots of servers I became quite attached to working with a shell, but I'm stuck using Windows because of the Adobe suite, the Stream Deck I use for macros, and other proprietary software that I don't have an alternative for.
 
