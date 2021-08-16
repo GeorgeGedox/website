@@ -17,8 +17,7 @@ activeNav: contact
         <div class="row">
             <div class="pr-md-5 col-sm-6">
                 <p>I'm quite easy to get in contact with given that most of my time is spent interacting with some form of computer.</p>
-                <p>The easiest way to get in contact would probably be either via email (<a class="email-secure" data-email="{{ $page->encodedEmail }}" href="#"></a>) or Discord (<a
-                            href="https://discord.com" target="_blank">GeorgeGedox#7782</a>) but other methods listed here can work too.</p>
+                <p>The easiest way to get in contact would probably be either via email (<a class="email-secure" data-email="{{ $page->encodedEmail }}" href="#"></a>) or Discord (<a href="https://discord.com" target="_blank">GeorgeGedox#7782</a>).</p>
                 <p>I'm open to discussions about almost anything, from projects and programming stuff to movies, music and games.</p>
             </div>
             <div class="pl-md-5 col-sm-6">

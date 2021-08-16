@@ -6572,8 +6572,8 @@ document.querySelectorAll(".email-secure").forEach(function (item) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Projects\georgev-jigsaw\source\_assets\js\main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! D:\Projects\georgev-jigsaw\source\_assets\sass\main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /home/paradox/webdev/georgev-website/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /home/paradox/webdev/georgev-website/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })

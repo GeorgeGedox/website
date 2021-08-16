@@ -1,3 +1,6 @@
+---
+title: Personal website
+---
 @extends('_layouts.app', ['body_class' => 'homepage'])
 
 @section('content')
@@ -7,8 +10,9 @@
                 <div class="jumbo-logo">
                     <img src="assets/images/logo.png" alt="Large logo">
                 </div>
-                <p>Hey there! I’m George. I’m a full-stack web designer and developer, systems architect and cloud automation specialist.</p>
-                <p class="mb-5">Currently, I’m the Lead Developer at <a href="https://potentpages.com/" target="_blank">Potent Pages</a>, a startup offering a wide range of services and custom solutions, primarily focused on web and cloud development.</p>
+                <p>Hey there! I’m <strong>George</strong>.</p>
+                <p>I’m a Full-Stack Web Developer, Web Designer and DevOps Engineer. Feel free to check out my <a href="{{ $page->baseUrl }}/blog">blog</a> or the <a href="{{ $page->baseUrl }}/stack">stack</a> page to see what I'm currently using. Most of my code can be found on GitHub, including the code for this website.</p>
+                <p class="mb-5">Currently, I work at <a href="https://ro.deloittedigital.com/" target="_blank">Deloitte Digital</a> as a DevOps Engineer. My previous work history can be found on my LinkedIn profile.</p>
                 <ul class="social">
                     <li class="anim-fadeInLeft"><a class="email-secure" data-email="{{ $page->encodedEmail }}" href="#" target="_blank" title="email"><i class="bx bx-envelope"></i> </a></li>
                     <li class="anim-fadeInLeft anim-delay-100"><a href="https://github.com/GeorgeGedox" target="_blank" title="Github"><i class="bx bxl-github"></i> Github</a></li>
